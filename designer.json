@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "node-1773658960385",
+      "type": "agent",
+      "data": {
+        "label": "Healthcare Employee Attendance Tracker Design",
+        "agentId": "13f94957-4100-4972-a9e8-f0cfd561d4b9",
+        "agentName": "Healthcare Employee Attendance Tracker Design",
+        "config": {}
+      },
+      "position": {
+        "x": 122.00680527017778,
+        "y": 339.51749837566035
+      }
+    },
+    {
+      "id": "node-1773658960542",
+      "type": "agent",
+      "data": {
+        "label": "Healthcare Employee Attendance Tracker Design",
+        "agentId": "13f94957-4100-4972-a9e8-f0cfd561d4b9",
+        "agentName": "Healthcare Employee Attendance Tracker Design",
+        "config": {}
+      },
+      "position": {
+        "x": 46.745232095636425,
+        "y": 168.01228912420015
+      }
+    },
+    {
+      "id": "node-1773658972872",
+      "type": "agent",
+      "data": {
+        "label": "Ecommerce Attendance Tracker Agent edited Design",
+        "agentId": "3bb1d996-cec7-4509-9d5a-4401b7f6c862",
+        "agentName": "Ecommerce Attendance Tracker Agent edited Design",
+        "config": {}
+      },
+      "position": {
+        "x": -432.6440411876785,
+        "y": 283.48905462608377
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-1773658960542-node-1773658960385-1773658985376",
+      "source": "node-1773658960542",
+      "target": "node-1773658960385",
+      "type": "default",
+      "data": {
+        "edgeStyle": "solid",
+        "lineType": "bezier",
+        "direction": "forward"
+      }
+    },
+    {
+      "id": "edge-node-1773658960385-node-1773658972872-1773659063109",
+      "source": "node-1773658960385",
+      "target": "node-1773658972872",
+      "type": "smoothstep",
+      "data": {
+        "edgeStyle": "dashed",
+        "lineType": "smoothstep",
+        "direction": "forward"
+      }
+    }
+  ],
+  "buildIds": [
+    "13f94957-4100-4972-a9e8-f0cfd561d4b9",
+    "3bb1d996-cec7-4509-9d5a-4401b7f6c862"
+  ]
+}
